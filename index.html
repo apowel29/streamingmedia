@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="description" content="Website with music artists information.">
+		<meta name="author" content="Ashley Powell">
+		<title>MuzakMaker</title>
+		<link href="styles.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon1.png">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <input type="checkbox"  id="menu-btn">
+                <label for="menu-btn"><span></span></label>
+                <ul>
+                    <li>MuzakMaker</li>
+                    <li>Trending Songs</li>
+                    <li>Your playlists</li>
+                    <li>Curated Playlists</li>
+                    <li>
+                        <img src="images/duke-silver.png" alt="circle with a man's head inside">
+                    </li>
+                <ul>
+            </nav>
+        </header>
+
+        <!-- HEADER ENDS -->
+            <div class="sub-heading">
+                <h2>Smooth Jazz</h2>
+                <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+            </div>
+        
+            <!-- START OF TRENDING -->
+    <section class="trending-songs" id="trending">
+        <h3 class="trending-songs-heading">Trending Songs</h3>
+        <div class="carousel" >
+            <div class="card">
+                <img src="images/aloma-cover.png" alt="circle with a man's head inside">
+                <footer class="card-footer">    
+                    <h4>Aloma</h4>
+                    <p>Artist Cali</p>
+                </footer>
+                <audio controls class="audio-player">
+                    <source src="./Audios/aloma.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="card">
+                <img src="images/my-road-cover.png" alt="road"> 
+                <footer class="card-footer">    
+                    <h4>My Road</h4>
+                    <p>Artist Nesterouk</p>
+                </footer>
+                <audio controls class="audio-player">
+                    <source src="./Audios/my-road.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img src="images/papaya-cover.png" alt="papaya"> 
+                <footer class="card-footer">    
+                    <h4>Papaya</h4>
+                    <p>Artist Dredstudio</p>
+                </footer>
+                <audio controls class="audio-player">
+                    <source src="./Audios/papaya.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img src="images/smoothies-cover.png" alt="fruits"> 
+                <footer class="card-footer">    
+                    <h4>Smoothies</h4>
+                    <p>Artist Black Rhomb</p>
+                </footer>
+                <audio controls class="audio-player">
+                    <source src="./Audios/smoothies.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="card">
+                <img src="images/successful-performance-cover.png" alt="happy man">
+                <footer class="card-footer">    
+                    <h4>Successful Performance</h4>
+                    <p>Artist Ricky Bombino</p>
+                </footer>
+                <audio controls class="audio-player">
+                    <source src="./Audios/smoothies.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            
+        </div>
+        <div class="btn-con">
+            <button class="btn">More trending</button>
+        </div>
+    </section>
+    
+    <!-- END OF TRENDING -->
+    
+    
+    
+    <div class="main-body"> 
+        <!--START OF PLAYLIST -->
+        <section class="playlists" id="playlists">
+     <h3 class="trending-songs-heading">Your playlists</h3>
+    <div class="carousel">
+        <div class="playlist-card">
+            <img src="./Images/best-of-2020-cover.png" alt="">
+            <footer class="playlist-card-footer">
+            <h4>Best of 2020</h4>
+            <p>The music that got you through the lock down.</p>
+            </footer>
+        </div>
+        <div class="playlist-card">
+            <img src="images/pumpkin-spice-cover.png" alt="latte">
+            <footer class="playlist-card-footer">
+                <h4>Pumpkin Spice</h4>
+                <p>Creamy and spicy, just like your favorite autumnal latte.</p>
+            </footer>
+        </div>
+
+        <div class="playlist-card">
+            <img src="images/quiet-storm-cover.png" alt="storm">
+            <footer class="playlist-card-footer">   
+            <h4>Quiet Storm</h4>
+            <p>Slow tempos and relaxed rhythms.</p>
+            </footer>
+        </div>
+        <div class="playlist-card">
+            <img src="images/smooth-jazz-cover.png" alt="bald man">
+            <footer class="playlist-card-footer">   
+                <h4>Smooth Jazz</h4>
+                <p>The pioneers of smooth jazz</p>
+            </footer>
+        </div>
+        <div class="playlist-card">
+            <img src="images/smooth-study-cover.png" alt="typing on laptop">
+            <footer class="playlist-card-footer">   
+                <h4>Smooth Study</h4>
+                <p>Background music to keep you going while you study. </p>
+            </footer>
+        </div>
+    </div>
+    <div class="btn-con">
+        <button class="btn">All your playlists</button>
+    </div>
+ </section>
+            <!-- END OF PLAYLIST -->
+
+ <!-- START OF CURATED PLAYLIST -->
+
+ <section class="curated-playlist" id="curated">
+    <h3 class="trending-songs-heading">Curated playlists</h3>
+    <div class="carousel">
+        <div class="curated-playlist-card">
+            <img src="images/boozy-brunch-cover.png" alt="drinks">
+            <footer class="curated-playlist-card-footer">   
+                <h4>Boozy Brunch</h4>
+                <p>Light up the afternoon with these energetic hits. </p>
+            </footer>
+        </div>
+        <div class="curated-playlist-card">
+            <img src="images/dinner-party-cover.png" alt="dinner">
+            <footer class="curated-playlist-card-footer">   
+            <h4>Dinner Party</h4>
+            <p>Background music to give your party life, but allow your guests to chat. </p>
+            </footer>
+        </div>
+        <div class="curated-playlist-card">
+           
+            <img src="images/mellow-cover.png" alt="park">
+            <footer class="curated-playlist-card-footer">   
+                <h4>Mellow</h4>
+                <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
+            </footer>
+        </div>
+        <div class="curated-playlist-card">
+            
+            <img src="images/jazz-chill-cover.png" alt="red flower petals">
+            <footer class="curated-playlist-card-footer">   
+                <h4>Jazz and Chill</h4>
+                <p>Set the mood with these silky sounds.</p>
+            </footer>
+        </div>
+        <div class="curated-playlist-card">
+            
+            <img src="images/smooth-saxophone-cover.png" alt="saxophone and an audience">
+            <footer class="curated-playlist-card-footer">   
+            <h4>Jazz Saxophone</h4>
+            <p>The greatest collection of your sax favorites.</p>
+            </footer>
+        </div>
+    </div>
+    <div class="btn-con">
+        <button class="btn"> More curated</button>
+    </div>
+ </section>
+ <!-- END OF CURATED PLAYLIST -->
+            
+</div>
+
+<p class="footer-text">Copyright &copy;
+ 2022 Smooth Jazz</p>     
+            
+    </body>
+</html>
+
